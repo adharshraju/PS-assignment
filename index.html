@@ -3,25 +3,556 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="keywords" content="HTML, CSS">
         <title>Pluralsight | Build better</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="style3.css">
+        <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
     </head>   
         <body>
+<!-- Header section-->
+            <section class="fixed-header">
+                <header class="primary-home-header">
+                    <div class="header-left-space"></div>
+                    <div >
+                        <img class="navbar-logo" src="images/pluralsight-navlogo.png" alt="Plural Sight header logo">
+                    </div>
+                    <div>
+                        <nav class="navbar">
+                            <ul class= "primary-navigation">
+                                <li class= "nav-menu">
+                                        <button type="button"> Solutions <i class="header-arrow arrow-down "></i> </button>
+                                        
+                                <li class= "nav-menu">
+                                        <button type="button"> Products <i class="header-arrow arrow-down "></i> </button>
+                                <li class= "nav-menu">
+                                        <button type="button"> Resources <i class="header-arrow arrow-down"></i> </button>
+                                <li class= "nav-menu">
+                                        <button type="button"> For individuals </button>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="search-glass">
+                        <a href=""><iconify-icon icon="heroicons:magnifying-glass" style="color: white;" width="25" height="25"></iconify-icon></a>
+                    </div>
+                    <div class="nav-contact">
+                        <button class="contact-sales"> Contact Sales</button>
+                    </div>
+                    <div class="nav-plans">
+                        <button class="plans-button"> View plans </button>
+                    </div>
+                    <div class="nav-bar-mobile" style= "margin-left:auto">
+                        <a><iconify-icon icon="charm:menu-hamburger" style="color: white;" width="33" height="33"></iconify-icon></iconify-icon></a>
+                    </div>
+                </header>
+            </section>
+
+<!-- 1st Box- Save 50% section-->
+            <section class="save50-box">
+                <div class="save-50-bg">
+                    <div>
+                        <a href="https://www.pluralsight.com/offer/2022/q3-50-off-monthly-premium"> 
+                            <img class="save50-button" src="images/save50.png" alt="">
+                        </a>
+                    </div>
+                </div>          
+            </section>
+
+<!-- 2nd Box- Popular topics section-->
+
+            <div class="journey-line"></div>
+            <section class="popular-topic-box">
+                <div class="popular-heading">
+                    <h6> TRENDING TECHNOLOGIES </h6>
+                    <h3> Popular topics to learn now </h3>
+                </div>
+                <div class="popular-topic">
+                    <div class="info-outer">
+                        <div class="cards-row">
+                                <div class="language-box">
+                                    <a href="https://web.archive.org/web/20220901173048/https://www.pluralsight.com/paths/javascript-core-language">
+                                        <img src="images/popular-js.png">
+                                        <h5>PATH</h5>
+                                        <h3>JavaScript</h3>
+                                        <p class="para"> <b>11</b> Courses</p>
+                                        <p class="para1">Take a look <i class="tl-arrow tl-right"></i> </p>
+                                    </a>
+                                </div>
+                                <div class="language-box">
+                                    <a href="">
+                                        <img src="images/popular-angular.png">
+                                        <h5>PATH</h5>
+                                        <h3>Angular</h3>
+                                        <p class="para"> <b>14</b> Courses </p>
+                                        <p class="para1">Take a look <i class="tl-arrow tl-right"></i> </p>
+                                    </a>
+                                </div>
+                        </div>
+                        <div class="cards-row">
+                            <div class="language-box">
+                                <a href="">
+                                    <img src="images/popular-python.png">
+                                    <h5>PATH</h5>
+                                    <h3>Core Python</h3>
+                                    <p class="para"> <b>12</b> Courses</p>
+                                    <p class="para1">Take a look <i class="tl-arrow tl-right"></i> </p>
+                                </a>
+                            </div>
+                            <div class="language-box">
+                                <a href="">
+                                    <img src="images/popular-csharp.png">
+                                    <h5>PATH</h5>
+                                    <h3>C#</h3>
+                                    <p class="para"> <b>19</b> Courses</p>
+                                    <p class="para1">Take a look <i class="tl-arrow tl-right"></i> </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<!-- 3rd Box- latest features section-->
+            <section class="latest-features">
+                <div class="latest-features-contents">
+                    <div class="feature-headings">
+                        <h6> SEE WHATS'S NEW</h6>
+                        <h3> Our latest features</h3>
+                    </div>
+                    <div class="all-features">
+                        <div class="feature-box">
+                            <div class="skill-details">
+                                <div style="margin-bottom: 20px;">
+                                    <img src="images/skills-logo.png" alt="">
+                                    <h6> LABS</h6>
+                                    
+                                </div>
+                                <div>
+                                    <h3 class="feature-h3">Deepen your people's expertise with hands-on labs</h3>
+                                </div>
+                                <p> Improve your teams' confidence in their ability to deliver on business objectives 
+                                    by building the right skills that meet your org's needs. Pluralsight offers 950+ labs 
+                                    that enable hands-on practice in secure environments across domains such as 
+                                    cloud (AWS, GCP and Azure), IT Ops, security, data and software development.
+                                </p>
+                                <p style="font-weight: 905;">Learn more <i class="tl-arrow tl-right"></i> </p>
+                            </div>
+                            <div class="skill-image">
+                                <div>
+                                    <img src="images/latest-feature-aws.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature-box">
+                            <div class="skill-details">
+                                <div style="margin-bottom: 20px;">
+                                    <img src="images/flow-logo.png" alt="">
+                                </div>
+                                <div>
+                                    <h3 class="feature-h3">Unlock your people and upgrade your process like never before</h3>
+                                </div>
+                                <p> Pluralsight Flow's newest insights show you the what, how, and why of your team's 
+                                    dynamics and delivery. <br><br>
+
+                                    The result? Healthier and more efficient engineering teams.
+                                </p>
+                                <p style="font-weight: 905;">Learn more <i class="tl-arrow tl-right"></i> </p>
+                            </div>
+                            <div class="skill-image">
+                                <div>
+                                    <img src="images/latest-feature-flow-interface.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!--3rd Box 2nd half--> 
+                        <div class="bottom-feature-box">
+                            <div class="small-features">
+                                <div class="small-feature-contents">
+                                    <div>
+                                        <img src="images/certification-prep.png" alt="">
+                                    </div>
+                                    <h3 class="feature-h3"> Empower your teams to grow their skills and their careers</h3>
+                                    <p>
+                                        Prepare your team for certification exams with 
+                                        our expert authored content and practice 
+                                        exams.
+                                    </p>
+                                    <p style="font-weight: 905;">Learn more <i class="tl-arrow tl-right"></i> </p>
+                                </div>
+                            </div>
+                            <div class="small-features">
+                                <div class="small-feature-contents">
+                                    <div>
+                                        <img src="images/delivery-module.png" alt="">
+                                    </div>
+                                    <h3 class="feature-h3"> Make lasting workflow improvements with insights from your Jira data</h3>
+                                    <p>
+                                        Go beyond Jira data and get visibility into 
+                                        what's happening within your user stories, tasks 
+                                        and bugs. Flow's delivery module helps you 
+                                        better understand how your team is working 
+                                        and can make lasting improvements to your 
+                                        workflow.
+                                    </p>
+                                    <p style="font-weight: 905;">Learn more <i class="tl-arrow tl-right"></i> </p>
+                                </div>
+                            </div>
+                            <div class="small-features">
+                                <div class="small-feature-contents">
+                                    <div>
+                                        <img src="images/sandboxes.png" alt="">
+                                    </div>
+                                    <h3 class="feature-h3"> Utilize a space for unrestricted exploration</h3>
+                                    <p>
+                                        Sandboxes gives your team a safe environment 
+                                        to practice what they're learning from expert-
+                                        authored courses.
+                                    </p>
+                                    <p style="font-weight: 905;">Learn more <i class="tl-arrow tl-right"></i> </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </section>
+
+
+<!-- 4th Box- Discover more section-->
+
+            <section class="discover-ps">
+                <div>
+                    <div class="discover-contents">
+                        <div>
+                            <h6> KEEP UP TO DATE</h6>
+                        </div>
+                        <div>
+                            <h3> Discover more about Pluralsight</h3>
+                        </div>
+                        <div class="discover-contents-flexbox">
+                            <div class="main-contents">
+                                <img src="images/ps-skill-b4.jpg" alt="">
+                                <h6>WHAT IS PLURALSIGHT SKILLS?</h6>
+                                <p class="main-description"> Discover the fastest, most effective path to developing technology skills </p>
+                            </div>
+                            <div class="main-contents">
+                                <img src="images/ps-leader-b4.png" alt="">
+                                <h6>PLURALSIGHT NAMED A LEADER FOR IT TRAINING</h6>
+                                <p class="main-description"> We're honored to be recognized in the 2021 IDC MarketScape for IT training. </p>
+                            </div>
+                            <div class="main-contents">
+                                <img src="images/ps-workflow-b4.png" alt="">
+                                <h6>LEARN HOW TO DE-FRICTION YOUR SOFTWARE DEVELOPMENT WORKFLOW WITH FLOW</h6>
+                                <p class="main-description">Take a guided tour through Pluralsight Flow to see how visibility can take your team to the next level </p>
+                            </div>
+                            <div class="main-contents">
+                                <img src="images/ps-50-free-b4.png" alt="">
+                                <h6>CREATE YOUR FREE ACCOUNT</h6>
+                                <p class="main-description"> Build new tech skills on us with free access to 50+ expert-led courses, assessments and more.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<!-- 5th Box- vmware section-->
+
+            <section class="vmware-100">
+                <div class="vm-left">
+                    <div class="vm-left-contents">
+                        <div class="vm-left-empty-space">
+                        </div>
+                    </div>
+                </div>
+                <div class="vm-right">
+                    <div class="vm-right-bg">
+                        <div class="vm-right-contents">
+                            <img src="images/vm-ware-icon.png" alt="">
+                            <h4> Winning the talent war with a scalable tech skills platform </h4>
+                            <p> Evolving a 20-year-old company, increasing innovation and accelerating time to
+                                delivery requires fresh skills. See how VMware's globally dispersed teams use 
+                                Pluralsight to leverage the latest developments in technology as they find new ways to 
+                                serve customers.</p>
+                            <div>
+                                <button class="skill-up-button"> HOW THEY'RE SKILLING UP</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </section>
+
+<!--6th Box- follow us section-->
+
+            <section class="follow-us">
+                    <div class="follow-us-contents">
+                        <div class="follow-us-headings">
+                            <h6> FOLLOW US</h6>
+                            <h3> Share your skills</h3>
+                        </div>
+                        <div class="tweet-section">
+                            <div>
+                                <div class="tweet-cards">
+                                    <span><iconify-icon icon="ep:arrow-left" style="color: white;" width="50" height="50"></iconify-icon></span>
+                                    <div class="tweet-individual tweet-individual-1">
+                                        <div class="tweet-author">
+                                            <a href=""> <img class="twitter-profilepic" src="images/twitter-user-1.jpg" alt=""></a>
+                                            <div>
+                                                <div>
+                                                    <img class="twitter-logo" src="images/twitter-logo.png" alt="">
+                                                    <p>Martin Therkelsen</p>
+                                                </div>
+                                                <p style="font-size:13px; color: #777;">@Mracket</p> 
+                                            </div>
+                                        </div>
+                                        <div class="tweet-body">
+                                            <p>Yesterday I  passed the AZ-140 exam. <span class="pink-text">@pluralsight</span>
+                                                courses are great to help prepare for these exams.
+                                                <span class="pink-text">#citrixctp #azure</span>
+                                            </p>
+                                        </div>
+                                        <div class="tweet-buttons" style="padding-top: 65px;">
+                                            <a href=""><iconify-icon icon="ei:comment" style="color: black;" width="22" height="22"></iconify-icon></a>
+                                            <a href=""><iconify-icon icon="ei:retweet" style="color: black;" width="25" height="25"></iconify-icon></a>
+                                            <a href=""><iconify-icon icon="ant-design:heart-outlined" style="color: #1a1a1a;" width="20" height="20"></iconify-icon></a>
+                                        </div>
+                                    </div>
+                                    <div class="tweet-individual tweet-individual-2">
+                                        <div class="tweet-author">
+                                            <a href=""> <img class="twitter-profilepic" src="images/twitter-user-2.jpg" alt=""></a>
+                                            <div>
+                                                <div>
+                                                    <img class="twitter-logo" src="images/twitter-logo.png" alt="">
+                                                    <p>William Masci 🏜🛰</p>
+                                                </div>
+                                                <p style="font-size:13px; color: #777;">@bilver3</p> 
+                                            </div>
+                                        </div>
+                                        <div class="tweet-body">
+                                            <p>Just passed the <span class="pink-text">#Cisco</span> DEVASC 200-901 exam! Tough
+                                                exam, but it was great experience. I'm excited to be part
+                                                of the <span class="pink-text">#DevNet</span> Class of 2020! Also big thanks to
+                                                <span class="pink-text">@nickrusso42518</span> for his amazing study plan and
+                                                <span class="pink-text">@pluralsight</span> course. I highly recommend it if you're
+                                                studying for DEVASC
+                                            </p>
+                                        </div>
+                                        <div class="tweet-buttons">
+                                            <a href=""><iconify-icon icon="ei:comment" style="color: black;" width="22" height="22"></iconify-icon></a>
+                                            <a href=""><iconify-icon icon="ei:retweet" style="color: black;" width="25" height="25"></iconify-icon></a>
+                                            <a href=""><iconify-icon icon="ant-design:heart-outlined" style="color: #1a1a1a;" width="20" height="20"></iconify-icon></a>
+                                        </div>
+                                    </div>
+                                    <div class="tweet-individual tweet-individual-3">
+                                        <div class="tweet-author">
+                                            <a href=""> <img class="twitter-profilepic" src="images/twitter-user-3.jpg" alt=""></a>
+                                            <div>
+                                                <div>
+                                                    <img class="twitter-logo" src="images/twitter-logo.png" alt="">
+                                                    <p>Judy</p>
+                                                </div>
+                                                <p style="font-size:13px; color: #777;">@judy_seyram</p> 
+                                            </div>
+                                        </div>
+                                        <div class="tweet-body">
+                                            <p>The best thing that happened to me in 2020 was
+                                                <span class="pink-text">#GADS2020</span> which introduced me to <span class="pink-text">@Pluralsight</span>. My
+                                                interest in IT and programming peaked when i joined the
+                                                program and now i believe this is the career path i want
+                                                to take. <span class="pink-text">#womenintech #WomenWhoCode #Andela</span>
+                                                <span class="pink-text">#Pluralsight #GADS https://t.co/oYchlj6V5W</span>
+                                            </p>
+                                        </div>
+                                        <div class="tweet-buttons">
+                                            <a href=""><iconify-icon icon="ei:comment" style="color: black;" width="22" height="22"></iconify-icon></a>
+                                            <a href=""><iconify-icon icon="ei:retweet" style="color: black;" width="25" height="25"></iconify-icon></a>
+                                            <a href=""><iconify-icon icon="ant-design:heart-outlined" style="color: #1a1a1a;" width="20" height="20"></iconify-icon></a>
+                                        </div>
+                                    </div>
+                                    <span><iconify-icon icon="ep:arrow-right" style="color: white;" width="50" height="50"></iconify-icon></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+
+<!-- 7th Box- PS one section -->
+
+            <section class="PS-one-box">
+                <div class="ps-one-bg">
+                    <div class="ps-one-container">
+                        <div class="ps-small-container">
+                            <div>
+                                <img class="ps-one-logo" src="images/pluralsight-one.png" alt="plural-sight-one">
+                            </div>
+                            <h2 style="font-family:sans-serif;font-size: 40px; margin: 0 0 20px 0;" >
+                                See our growth,
+                                <br>
+                                progress and evolution
+                            </h2>
+                            <p class="description">
+                                At Pluralsight, we see first-hand every day how technology makes the impossible,
+                                possible. It's why Pluralsight One exists: To advance our mission of democratizing 
+                                technology skills, challenging assumptions about solutions and create significant,
+                                lasting&nbsp;social impact.
+                            </p>
+                            <button class="n-profit"> FOR NONPROFITS </button>
+                        </div>
+                    </div>
+                </div> 
+            </section>
+
 <!-- 8th Box- Try for free section-->
 
-        <section class="try-for-free">
-            <div class="for-free-position">
-                <div class="for-free-h2">
-                    <h2> Insights that give you an edge</h2>
+            <section class="try-for-free">
+                <div class="for-free-position">
+                    <div class="for-free-h2">
+                        <h2> Insights that give you an edge</h2>
+                    </div>
+                    <div class="free-button">
+                        <button> TRY FOR FREE </button>
+                    </div>
                 </div>
-                <div class="free-button">
-                    <button> TRY FOR FREE </button>
+            </section>
+
+<!-- footer section-->
+
+            <section class="home-footer">
+                <div class="footer-sizing">
+                    <div class="footer-box">
+                        <div class="footer-contents">
+                            <div class="footer-links">
+                                <div>
+                                    <ul class="footer-links-components">
+                                        <li class="footer-link-list">
+                                            <div class="footer-single-list">
+                                                <h2>Solutions
+                                                    <span class="icon-arrow-down"><iconify-icon inline icon="ic:sharp-keyboard-arrow-down" style="color: white;" width="25" height="25"></iconify-icon></span>
+                                                </h2>
+                                                <ul class="single-list-contents">
+                                                    <li class="single-list-contents-li">
+                                                        <div class="footer-list-a"><a href="">Pluralsight Skills</a></div>
+                                                        <div class="footer-list-a"> <a href="">Pluralsight Flow</a></div>
+                                                        <div class="footer-list-a"> <a href="">Government</a></div>
+                                                        <div class="footer-list-a"><a href="">Gift of Pluralsight</a></div>
+                                                        <div class="footer-list-a"><a href="">View Pricing</a></div>
+                                                        <div class="footer-list-a"><a href="">Contact Sales</a></div>
+                                                        <div class="footer-list-a"><a href="">Skill up for free</a></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="footer-link-list">
+                                            <div class="footer-single-list">
+                                                <h2>Platform
+                                                    <span class="icon-arrow-down"><iconify-icon inline icon="ic:sharp-keyboard-arrow-down" style="color: white;" width="25" height="25"></iconify-icon></span>
+                                                </h2>
+                                                <ul class="single-list-contents">
+                                                    <li class="single-list-contents-li">
+                                                        <div class="footer-list-a"><a href="">Browse library</a></div>
+                                                        <div class="footer-list-a"> <a href="">Role IQ</a></div>
+                                                        <div class="footer-list-a"> <a href="">Skill IQ</a></div>
+                                                        <div class="footer-list-a"><a href="">Iris</a></div>
+                                                        <div class="footer-list-a"><a href="">Authors</a></div>
+                                                        <div class="footer-list-a"><a href="">Professional Services</a></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="footer-link-list">
+                                            <div class="footer-single-list">
+                                                <h2>Company
+                                                    <span class="icon-arrow-down"><iconify-icon inline icon="ic:sharp-keyboard-arrow-down" style="color: white;" width="25" height="25"></iconify-icon></span>
+                                                </h2>
+                                                <ul class="single-list-contents">
+                                                    <li class="single-list-contents-li">
+                                                        <div class="footer-list-a"><a href="">About us</a></div>
+                                                        <div class="footer-list-a"> <a href="">Customer stories</a></div>
+                                                        <div class="footer-list-a"> <a href="">Careers</a></div>
+                                                        <div class="footer-list-a"><a href="">Blog</a></div>
+                                                        <div class="footer-list-a"><a href="">Newsroom</a></div>
+                                                        <div class="footer-list-a"><a href="">Resource center</a></div>
+                                                        <div class="footer-list-a"><a href="">Guides</a></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="footer-link-list">
+                                            <div class="footer-single-list">
+                                                <h2>Resources
+                                                    <span class="icon-arrow-down"><iconify-icon inline icon="ic:sharp-keyboard-arrow-down" style="color: white;" width="25" height="25"></iconify-icon></span>
+                                                </h2>
+                                                <ul class="single-list-contents">
+                                                    <li class="single-list-contents-li">
+                                                        <div class="footer-list-a"><a href="">Download Pluralsight</a></div>
+                                                        <div class="footer-list-a"> <a href="">Events</a></div>
+                                                        <div class="footer-list-a"> <a href="">Teach</a></div>
+                                                        <div class="footer-list-a"><a href="">Partners</a></div>
+                                                        <div class="footer-list-a"><a href="">Affiliate Partners</a></div>
+                                                        <div class="footer-list-a"><a href="">PluralsightOne.org</a></div>
+                                                        <div class="footer-list-a"><a href="">Subscribe</a></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="footer-link-list">
+                                            <div class="footer-single-list">
+                                                <h2>Support
+                                                    <span class="icon-arrow-down"><iconify-icon inline icon="ic:sharp-keyboard-arrow-down" style="color: white;" width="25" height="25"></iconify-icon></span>
+                                                </h2>
+                                                <ul class="single-list-contents">
+                                                    <li class="single-list-contents-li">
+                                                        <div class="footer-list-a"><a href="">Contact</a></div>
+                                                        <div class="footer-list-a"> <a href="">Help center</a></div>
+                                                        <div class="footer-list-a"> <a href="">IP allowlist</a></div>
+                                                        <div class="footer-list-a"><a href="">Sitemap</a></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-language">
+                                <div class="language-selector">
+                                    <img src="images/globe-footer.png" alt="">
+                                    <ul class="language-button">
+                                        <li class="language-button"><a href=""> Deutsch</a></li>
+                                        <li class="language-button"><a style="color:white;" href=""> English</a></li>
+                                        <li class="language-button"><a href=""> French</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-bottom-part">
+                            <!--<div class="footer-bottom-contents">
+                                <div class="footer-bottom-left">
+                                    <a href="">
+                                        <img src="images/ps-icon-footer.png" alt="">
+                                    </a>
+                                    <div class="footer-copyright">
+                                        Copyright © 2004 - 2022 Pluralsight LLC. All rights reserved.
+                                    </div>
+                                </div>
+                                <div class="footer-bottom-right">
+                                    <div class="footer-links-social">
+                                        <p>Terms of use</p>
+                                        <p>Privacy Notice</p>
+                                        <p>Modern Slavery Act Transparency Statement</p>
+                                        <iconify-icon inline icon="bxl:facebook" style="color: white;" width="18" height="18"></iconify-icon>
+                                        <iconify-icon inline icon="entypo-social:instagram" style="color: white;" width="15" height="15"></iconify-icon>
+                                        <iconify-icon inline icon="bi:twitter" style="color: white;" width="15" height="15"></iconify-icon>
+                                        <iconify-icon inline icon="akar-icons:linkedin-fill" style="color: white;" width="17" height="17"></iconify-icon>
+                                        <iconify-icon inline icon="fa:youtube" style="color: white;" width="17" height="17"></iconify-icon>
+                                    </div>
+                                </div>
+                            </div>-->
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-
-
-    </body>
+        </body>
 </html>
