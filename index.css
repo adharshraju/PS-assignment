@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+@media (max-width: 800px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/* First Box- Save 50% section */
+
+.save50-box .save-50-bg {
+    background-image: url(save50background.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+
+.save-50-bg .save50-button {
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    max-width: 60%;
+    padding-top: 30px;
+
+}
+
+@media(max-width:800px) {
+    .save50-box .save-50-bg {
+        padding-top: 50px;
+    }
+
+    .save-50-bg .save50-button {
+        max-width: 90%;
+        padding-bottom: 30px;
+    }
+}
