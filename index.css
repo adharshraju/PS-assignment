@@ -1,0 +1,164 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+@media (max-width: 800px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/* 6th Box- follow us section*/
+
+.follow-us {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.follow-us-headings {
+    text-align: center;
+}
+
+.follow-us-headings h6 {
+    color: #e40084;
+    margin: 0;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    font-size: 15px;
+    font-weight: 905;
+}
+
+.follow-us-headings h3 {
+    font-size: 32px;
+    font-weight: 905;
+}
+
+.follow-us-contents .tweet-section {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    position: relative;
+    width: 100%;
+    min-width: 300px;
+}
+
+.tweet-section .tweet-align {
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.tweet-section .tweet-cards {
+    display: flex;
+    width: 100%;
+    position: relative;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.tweet-individual {
+    display: block;
+    width: 366px;
+    margin: 0 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #000;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.tweet-author .twitter-profilepic {
+    float: left;
+    width: 40px;
+}
+
+.tweet-author p {
+    margin-left: 50px;
+    line-height: 0;
+}
+
+.tweet-author .twitter-logo {
+    float: right;
+    width: 15px;
+}
+
+.tweet-author .twitter-user-name {
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.tweet-author .twitter-id {
+    font-size: 13px;
+    color: #777;
+}
+
+.tweet-body {
+    padding-top: 10px;
+}
+
+.tweet-body p {
+    margin: 0;
+    text-align: left;
+    font-size: 14px;
+    padding-top: 15px;
+    line-height: 1.5;
+}
+
+.pink-text {
+    color: #ec008c;
+}
+
+@media (max-width:800px) {
+
+    .follow-us {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .follow-us-contents .tweet-section {
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+
+    .follow-us-headings h3 {
+        font-size: 28px;
+    }
+
+    .tweet-section .tweet-align {
+        padding: 0;
+    }
+
+    .tweet-individual {
+        height: auto;
+        min-height: 220px;
+        width: auto;
+    }
+
+    .tweet-individual-1 .tweet-body p {
+        padding-bottom: 100px;
+    }
+
+    .tweet-individual-2 {
+        display: none;
+    }
+
+    .tweet-individual-3 {
+        display: none;
+    }
+}
