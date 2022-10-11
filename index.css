@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+@media (max-width: 800px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/* footer section*/
+
+.home-footer .footer-sizing {
+    background-color: #222;
+    padding: 0 80px;
+}
+
+.footer-contents {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.footer-links-components {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding-left: 0px;
+}
+
+
+.footer-single-list {
+    display: flex;
+    flex-direction: column;
+    margin: 75px 0;
+}
+
+.footer-single-list h2 {
+    margin: 20px 10px 10px 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 901;
+    text-transform: uppercase;
+}
+
+.icon-arrow-down {
+    float: right;
+    top: -1px;
+    margin-top: 0px;
+}
+
+.footer-list-a {
+    padding: 7px 0;
+    line-height: 16px;
+}
+
+.footer-single-list .single-list-contents {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-single-list .single-list-contents a {
+    text-decoration: none;
+    color: #7c7c7d;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+
+.language-selector {
+    padding: 25px 0;
+    text-align: left;
+    width: 100%;
+    font-size: 14px;
+    color: #222;
+    border-top: 1px solid #363638;
+    border-bottom: 1px solid #363638;
+
+}
+
+.language-button {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.language-selector img {
+    display: inline-block;
+    height: 20px;
+    max-width: 20px;
+    vertical-align: middle;
+}
+
+.language-selector a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 13px;
+    padding: 30px 0;
+}
+
+@media (min-width:800px) {
+    .icon-arrow-down {
+        display: none;
+    }
+}
+
+@media (max-width:800px) {
+
+    .home-footer .footer-sizing {
+        padding: 0;
+    }
+
+    .footer-link-list {
+        display: list-item;
+        flex: 1 0 100%;
+        border-top: #363638 1px solid;
+        border-bottom: #363638 1px solid;
+        text-align: left;
+    }
+
+    .footer-single-list {
+        flex-grow: 4;
+        margin: 0;
+    }
+
+    .footer-single-list .single-list-contents {
+        display: none;
+    }
+
+    .footer-single-list h2 {
+        margin: 30px;
+    }
+
+    .language-selector {
+        padding-left: 30px;
+    }
+}
