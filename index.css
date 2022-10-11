@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+@media (max-width: 800px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/* 7th Box- PS one section*/
+
+.ps-one-bg {
+    background-image: url(two-girls.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ps-one-container {
+    margin: 0 auto;
+    max-width: 1400px;
+    line-height: 1.2;
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+
+
+.ps-small-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 50%;
+}
+
+.ps-small-container h2 {
+    font-family: sans-serif;
+    font-size: 40px;
+    margin: 0 0 20px 0;
+}
+
+.ps-one-container .description {
+    font-size: 17px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.ps-one-container .n-profit {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 18px 34px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+}
+
+@media (max-width:800px) {
+    .ps-one-bg {
+        background-position: 70% center !important;
+    }
+
+    .ps-one-container {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding-top: 15px;
+        padding-bottom: 85px;
+    }
+
+    .ps-small-container {
+        width: 100%;
+    }
+}
