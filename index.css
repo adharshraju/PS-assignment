@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+@media (max-width: 800px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+}
+
+/* 8th Box- Try for free section */
+
+.try-for-free {
+    background-color: #181818;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-size: 35px;
+}
+
+.for-free-position {
+    padding-left: 13%;
+}
+
+.try-for-free .for-free-h2 {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 66.66%;
+}
+
+.try-for-free .for-free-h2 h2 {
+    font-size: 37px;
+    font-weight: 950;
+    margin: 0 !important;
+    line-height: 1.5;
+}
+
+.try-for-free .free-button button {
+    min-width: 260px;
+    padding: 18px 34px;
+    border-width: 0px;
+    border-radius: 2px;
+    background: #ec008c;
+    background-image: linear-gradient(to right, #f05a28, #ec008c, #f05a28);
+    background-size: 300% 100%;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 1.1;
+    border-radius: 2px;
+    color: #fff;
+}
+
+@media (max-width:800px) {
+    .try-for-free {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .try-for-free .for-free-h2 {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .try-for-free .for-free-h2 h2 {
+        line-height: 1.2;
+        font-size: 33px;
+        font-weight: 900.5;
+    }
+
+    .for-free-position {
+        padding-left: 0px;
+        text-align: center;
+        line-height: 2.5;
+    }
+}
